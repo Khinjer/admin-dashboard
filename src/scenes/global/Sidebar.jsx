@@ -70,7 +70,7 @@ function Sidebar() {
         },
       }}
     >
-      <ProSidebar collapsed={isCollapsed}>
+      <ProSidebar collapsed={isCollapsed} breakPoint="md">
         <Menu iconShape="square">
           <MenuItem
             onClick={() => {

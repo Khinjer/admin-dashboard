@@ -24,8 +24,19 @@ function Topbar() {
         display="flex"
         borderRadius="3px"
         bgcolor={colors.primary[400]}
+        sx={{
+          display: {
+            xs: "none",
+            md: "flex",
+          },
+        }}
       >
-        <InputBase name="search" id="search" placeholder="search" sx={{ ml: 1, flex: 1 }} />
+        <InputBase
+          name="search"
+          id="search"
+          placeholder="search"
+          sx={{ ml: 1, flex: 1 }}
+        />
         <IconButton sx={{ p: 1 }} type="button">
           <SearchIcon />
         </IconButton>

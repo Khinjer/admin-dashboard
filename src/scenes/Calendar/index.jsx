@@ -60,17 +60,30 @@ const Calendar = () => {
     }
   };
   return (
-    <Box m="20px" sx={{
-      "& .fc-event-title": {
-        fontWeight: "bold"
-      }
-    }}>
+    <Box
+      m="20px"
+      sx={{
+        "& .fc-event-title": {
+          fontWeight: "bold",
+        },
+      }}
+    >
       <Header
         title="Calendar"
         subTitle="Manage all your events in once place"
       />
 
-      <Box display="flex" justifyContent="space-between" gap={1}>
+      <Box
+        sx={{
+          flexWrap: {
+            xs: "wrap",
+            md: "nowrap",
+          },
+        }}
+        display="flex"
+        justifyContent="space-between"
+        gap={1}
+      >
         <Box
           flex="1 1 20%"
           sx={{
@@ -80,8 +93,7 @@ const Calendar = () => {
           }}
         >
           <Typography variant="h5" mb={1}>
-            {" "}
-            Events{" "}
+            Events
           </Typography>
           <List>
             {currentEvents.map((e) => (

@@ -54,7 +54,7 @@ function Dashboard() {
       </Box>
       <Box minHeight="75vh">
         <Grid container spacing="20px">
-          <Grid item xs={12} sm={6} md={3}>
+          <Grid item xs={12} md={6} lg={3}>
             <Box sx={{ height: "150px" }}>
               <StatBox
                 size="50px"
@@ -65,7 +65,7 @@ function Dashboard() {
               />
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={3}>
+          <Grid item xs={12} md={6} lg={3}>
             <Box sx={{ height: "150px" }}>
               <StatBox
                 size="50px"
@@ -76,7 +76,7 @@ function Dashboard() {
               />
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={3}>
+          <Grid item xs={12} md={6} lg={3}>
             <Box sx={{ height: "150px" }}>
               <StatBox
                 size="50px"
@@ -87,7 +87,7 @@ function Dashboard() {
               />
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={3}>
+          <Grid item xs={12} md={6} lg={3}>
             <Box sx={{ height: "150px" }}>
               <StatBox
                 size="50px"
@@ -99,7 +99,7 @@ function Dashboard() {
             </Box>
           </Grid>
 
-          <Grid item xs={12} md={8}>
+          <Grid item xs={12} lg={8}>
             <Box
               sx={{ height: "280px", padding: "40px" }}
               display="flex"
@@ -132,7 +132,7 @@ function Dashboard() {
               </Box>
             </Box>
           </Grid>
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} lg={4}>
             <Box
               sx={{
                 height: "280px",
@@ -172,7 +172,7 @@ function Dashboard() {
             </Box>
           </Grid>
 
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} lg={4}>
             <Box sx={{ height: "280px" }} padding="40px">
               <Typography variant="h5">Campaign</Typography>
               <Box
@@ -192,13 +192,13 @@ function Dashboard() {
               </Box>
             </Box>
           </Grid>
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} lg={4}>
             <Box sx={{ height: "280px", p: "40px" }}>
               <Typography variant="h5">Sales Quantity</Typography>
               <BarChart isDashboard />
             </Box>
           </Grid>
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} lg={4}>
             <Box
               sx={{ height: "280px" }}
               padding="40px"
